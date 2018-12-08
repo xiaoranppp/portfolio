@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/mycss.css"> 
   <link rel="stylesheet" type="text/css" href="css/mycity.css"> 
+  <link rel="stylesheet" type="text/css" href="css/media2.css"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script src='myjs.js'></script>
   <script src="wow.js"></script>
@@ -180,7 +181,8 @@
     <div class='father'>
         <div class="front" id='front2'></div>
         <div class="back">Shanghai
-            <button type="button" class="btn btn-default">Explore more</button>
+          <a href='#shanghai'>
+            <button type="button" class="btn btn-default">Explore more</button></a>
         </div>
       </div>
   </div>
@@ -188,37 +190,19 @@
   <div id='picturethree'class="wow pulse" data-wow-iteration="infinite" data-wow-duration="500ms">
       <div class='father'>
           <div class="front" id='front3'></div>
-          <div class="back">Luoyang <button type="button" class="btn btn-default">Explore more</button>
+          <div class="back">Luoyang
+            <a href='#luoyang'> <button type="button" class="btn btn-default">Explore more</button></a>
           </div>
         </div>
     </div>
 </div>
 
-<div id='ann_arbor' class="foo  foo-3">
+<div id='ann_arbor'>
   <div class='titlepart'>
      Ann Arbor
-     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style='margin-top:0px'>Useful Link</button>
+     
   </div>
-  <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-      
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Fun in Ann Arbor</h4>
-          </div>
-          <div class="modal-body">
-            <p>Some text in the modal.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  <div class='firstpic foo  foo-3'>
+  <div class='firstpic'>
     <div class='cutepic'>
         <img class='simg' src="img/squ.jpg" alt="Squrill">
     </div>
@@ -251,9 +235,92 @@
         </div>
   </div>
 </div>
+<div id='shanghai'>
+    <div class='titlepart'>
+       Shanghai
+       <!-- <button type="button" class="wiki btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style='margin-top:0px'>Explore more</button> -->
+    </div>
+    <div class='firstpic'>
+      <div class='cutepic'>
+          <img class='simg' src="img/fudan.jpg" alt="Fudan">
+      </div>
+      <div class='expla' >
+          🐰 My life in shanghai is all about my college: Fudan University. Girls there are all skinny. 🙈
+      </div>
+  </div>
+    <div class='secondpic wow slideInLeft'>
+        <div class='cutepic'>
+            <img class='simg' src="img/hotpot.gif" alt="hotpot">
+          </div>
+          <div class='expla'>
+              😍 Xiaolongbao seems to be the most famous food there. However young guys like to eating hotpots.😁
+          </div>
+    </div>
+    <div class='thirdpic wow slideInRight'>
+        <div class='cutepic'>
+            <img class='simg' src="img/night.jpg" alt="Night">
+          </div>
+          <div class='expla'>
+              👩‍🎤We hang out a lot after midnight and there will be a lot of people on the street at that time everyday.👨‍🎤
+          </div>
+    </div>
+    <div class='fourthpic wow slideInRight'>
+        <div class='cutepic'>
+            <img class='simg' src="img/physics.gif" alt="physics">
+          </div>
+          <div class='expla'>
+              🌨️My major is physics and my life is full of crazy experiments about physics.😪
+          </div>
+    </div>
+  </div>
+  <div id='luoyang'>
+      <div class='titlepart'>
+         Luoyang
+         
+      </div>
+      <div class='firstpic'>
+        <div class='cutepic'>
+            <img class='simg' src="img/his.jpg" alt="history">
+        </div>
+        <div class='expla' >
+            🐰 Luoyang is where I was born in and it has a really long history: more tahn 2000 years. 🙈
+        </div>
+    </div>
+      <div class='secondpic wow slideInLeft'>
+          <div class='cutepic'>
+              <img class='simg' src="img/peony.gif" alt="peony">
+            </div>
+            <div class='expla'>
+                😍 Luoyang is famous for its peonies. Peony is the national flower of China😁
+            </div>
+      </div>
+      <div class='thirdpic wow slideInRight'>
+          <div class='cutepic'>
+              <img class='simg' src="img/people.jpg" alt="People">
+            </div>
+            <div class='expla'>
+                👩‍🎤People here have very slow life. They earned a little money but have a lot of fun.👨‍🎤
+            </div>
+      </div>
+      <div class='fourthpic wow slideInRight'>
+          <div class='cutepic'>
+              <img class='simg' src="img/fri.gif" alt="friends">
+            </div>
+            <div class='expla'>
+                🌨️I have a fantastic family and a lot of life long friens there.😪
+            </div>
+      </div>
+    </div>
+
 </main>
 <footer>Design by Xiaoran Peng</footer>
 <script>
+  //  $(document).ready(function(){
+  //    $('.wiki').click(function(){
+  //      $('#wiki1').load('https://www.a2gov.org/Pages/default.aspx')
+  //    })
+  //  }
+  //  )
     (function scrollReveal() {
   window.sr = ScrollReveal();
   

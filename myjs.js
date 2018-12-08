@@ -2,7 +2,7 @@ $(document).ready(function() {
 	setTimeout(function() {
 		$("#main").removeClass("is-loading");
     }, 100)
-    $("#nav").click(function(){
+    $("#navnav").click(function(){
         console.log('101');
         $(".flex-container").toggle("left slow");
         //$(".flex-container").toggle("slide", {direction: "right" }, 1000);

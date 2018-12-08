@@ -1,0 +1,88 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+    body{
+        height:380px;
+    }
+    #forhead{
+        background-position-x:-20px;
+    }
+    main{
+        width:667px;
+    }
+    /* .flex-item{
+        font-size:10px;
+    }
+    .flex-container{
+        width:500px;
+        margin-top:-40px;
+    } */
+    /* h1{
+        font-size:50px;
+    } */
+    .one{
+        margin-left:-120px;
+    }
+    #word,#picturethree,#picturetwo,#pictureone{
+        margin-left:-120px;
+    }
+    #word{
+        width:500px;
+    }
+    #ann_arbor,#shanghai,#luoyang{
+        margin-left:80px;
+       
+    }
+    body{
+        width:1300px;
+    }
+    main{
+        width:1200px;
+    }
+   
+}
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+and (orientation : portrait) {
+   #forhead{
+       display:none;
+   }
+   .mininav1{
+    display:block;
+    width:20px;
+    margin-left:-20px;
+}
+.flex-container{
+    
+    margin-top:-50px;
+    flex-flow:column;
+    margin-left:-130px;
+}
+.flex-item{
+    font-size:10px;
+}
+#social{
+    display:none;
+}
+#picturechoose{
+    display:none;
+}
+
+#main{
+    margin-left:170px;
+    margin-top:-60px;
+
+}
+h1{
+    font-size:50px;
+}
+main{
+    height:1000px;
+}
+body{
+    height:500px;
+}
+
+}
