@@ -59,6 +59,9 @@ a.skip-main:focus, a.skip-main:active {
     background-image:url('../img/home.jpg');
     background-size: 400px 300px;
   }
+  .xiao{
+      display:none;
+  }
   
   #bluebox{
     background-color: #00F;
