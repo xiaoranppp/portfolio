@@ -7,7 +7,17 @@ $(document).ready(function() {
         $(".flex-container").toggle("left slow");
         //$(".flex-container").toggle("slide", {direction: "right" }, 1000);
     });
+    $(".mininav").click(function(){
+      console.log('101');
+      $(".flex-container").toggle("left slow");
+      //$(".flex-container").toggle("slide", {direction: "right" }, 1000);
+  });
     
+  $(".mininav1").click(function(){
+    console.log('101');
+    $(".flex-container").slideToggle('slow');
+    //$(".flex-container").toggle("slide", {direction: "right" }, 1000);
+});
 });
 
         function focusRed() {
