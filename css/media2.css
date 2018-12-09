@@ -39,7 +39,7 @@ and (orientation : landscape) {
 
    p{
        font-size:15px;
-       line-height:15px;
+       line-height:20px;
        width:550px;
    }
    #firstp:before,#lastp:after{
@@ -74,33 +74,37 @@ and (orientation : landscape) {
 }
 .titlepart{
     width:560px;
+    font-size:30px;
 }
    #ann_arbor,#shanghai,#luoyang{
        margin-left:20px;
        width:560px;
-       margin-top:50px;
-       height:450px;
+       margin-top:60px;
+       height:420px;
    }
     .s1img{
        width:180px;
        height:200px;
+       margin-top:-150px;
    }
-   /*.firstpic,.secondpic{
-       width:220px;
-       height:220px;
-   } */
+   .firstpic,.secondpic{
+      margin-top:-40px;
+   }
    #shanghai,#luoyang{
-       margin-top:100px;
+       margin-top:60px;
    }
    .thirdpic,.fourthpic{
        display:none;
    }
-}
-
-
-main{
+   main{
     height:2500px;
 }
+#cities{
+    margin-top:208px;
+}
+}
+
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px)
