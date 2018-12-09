@@ -1,47 +1,4 @@
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : landscape) { 
-    body{
-        height:380px;
-    }
-    #forhead{
-        background-position-x:-20px;
-    }
-    main{
-        width:667px;
-    }
-    /* .flex-item{
-        font-size:10px;
-    }
-    .flex-container{
-        width:500px;
-        margin-top:-40px;
-    } */
-    /* h1{
-        font-size:50px;
-    } */
-    .one{
-        margin-left:-120px;
-    }
-    #word,#picturethree,#picturetwo,#pictureone{
-        margin-left:-120px;
-    }
-    #word{
-        width:500px;
-    }
-    #ann_arbor,#shanghai,#luoyang{
-        margin-left:80px;
-       
-    }
-    body{
-        width:1300px;
-    }
-    main{
-        width:1200px;
-    }
-   
-}
+
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px)
@@ -54,6 +11,14 @@ and (orientation : portrait) {
     width:20px;
     margin-left:-20px;
 }
+#cities{
+    margin-top:700px;
+    margin-left:-1800px;
+    
+}
+h2{
+    display:none;
+}
 .flex-container{
     
     margin-top:-50px;
@@ -62,6 +27,48 @@ and (orientation : portrait) {
 }
 .flex-item{
     font-size:10px;
+}
+.container{
+    display:none;
+    
+}
+.back{
+    display:none
+}
+.father:hover {
+    transform: rotateY(0deg);
+  }
+#pictureone,#picturetwo,#picturethree{
+    display:none;
+}
+#minipic{
+    display:flex;
+    flex-flow:column;
+    width:230px;
+    height:200px;
+    margin-left:-80px;
+    margin-top:-25px;
+}
+.minip{
+    text-align:center;
+}
+#ann_arbor,#shanghai,#luoyang{
+    display:none;
+}
+#word{
+    margin-left:-1000px;
+    width:250px;
+    margin-top:-170px;
+   
+    
+}
+h1{
+    margin-left:300px;
+    width:300px;
+}
+.minip1{
+    margin-left:-100px;
+    width:350px;
 }
 #social{
     display:none;
@@ -80,9 +87,14 @@ h1{
 }
 main{
     height:1000px;
+    width:400px;
 }
 body{
+    width:400px;
     height:500px;
+}
+.container{
+    width:200px;
 }
 
 }

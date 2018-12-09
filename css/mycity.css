@@ -56,6 +56,10 @@ main{
 
 
 }
+.cimg{
+    width:600px;
+    
+}
 #ann_arbor,#shanghai,#luoyang{
     width:1100px;
     
@@ -158,6 +162,9 @@ main{
     border-width:1px;
     z-index:1;
     
+  }
+  #minipic{
+   display:none;
   }
   .back {
     z-index:1;
