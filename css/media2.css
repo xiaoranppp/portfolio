@@ -1,4 +1,47 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+    
+    #forhead{
+        display:none;
 
+    }
+    #social{
+        display:none;
+    }
+    body{
+        height:380px;
+    }
+    
+    h1{
+        font-size:50px;
+    }
+    .container{
+        display:none;
+        
+    }
+    #word{
+        margin-left:-720px;
+        margin-top:-80px;
+        
+    }
+   p{
+       font-size:25px;
+       line-height:25px;
+       width:1000px;
+   }
+   #firstp:before,#lastp:after{
+       width:1000px;}
+   #pictureone,#picturetwo,#picturethree{
+       margin-left:-300px;
+       margin-top:-100px;
+   }
+   #ann_arbor{
+       margin-left:70px;
+       width:1200px;
+   }
+}
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px)
