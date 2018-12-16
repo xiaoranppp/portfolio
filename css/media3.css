@@ -1,0 +1,82 @@
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) { 
+    #fornav{
+        width:668px;
+        margin-left:-10px;
+        
+    }
+    .flex-item{
+        font-size:10px;
+        margin-left:-20px;
+        margin-top:0px;
+    }
+    .cc{
+        margin-left:-135px;
+    }
+    .select{
+        display:none;
+    }
+    #year{
+        position:absolute;
+        
+        margin-left:-0px;
+    }
+    .yr{
+        
+        font-size:50px;
+        
+    }
+    .wordright{
+        display:none;
+    }
+    p{
+        width:200px;
+        height:150px;
+        font-size:15px;
+    }
+    #left{
+        width:200px;
+    }
+    #forhead{
+        display:none;
+
+    }
+    #my_file{
+        position:absolute;
+        display:block;
+        margin-top:-250px;
+        margin-left:140px;
+       
+    }
+    .life{
+        margin-top:30px;
+        width:500px;
+    }
+    #social{
+        display:none;
+    }
+    body{
+        height:380px;
+        height:3000px;
+    }
+    
+    h1{
+        font-size:50px;
+    }
+    .container{
+        display:none;
+        
+    }
+    
+
+   #left,#right{
+       margin-top:-100px;
+   }
+  
+   main{
+    height:2500px;
+}
+
+}
