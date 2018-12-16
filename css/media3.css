@@ -81,5 +81,8 @@ and (orientation : landscape) {
 .pp{
     width:600px;
 }
+#myModal{
+    width:650px;
+}
 
 }
