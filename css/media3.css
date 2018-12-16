@@ -78,5 +78,8 @@ and (orientation : landscape) {
    main{
     height:2500px;
 }
+.pp{
+    width:600px;
+}
 
 }
