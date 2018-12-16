@@ -190,6 +190,9 @@ main{
 
 
 }
+.btn:hover{
+    font-size:20px;
+}
 h1,h2{
     font-family: 'Noto Serif TC', serif;
     margin-top:-10px;
