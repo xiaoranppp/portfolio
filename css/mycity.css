@@ -231,8 +231,16 @@ p{
 #cities{
     margin-top:-15px;
 }
+
+.item{
+    background-color:black;
+}
+
 .into{
     color:white;
+}
+.myCarousel{
+    background-color:black;
 }
 #front1{
     background-image:url('../img/michigan.jpg');

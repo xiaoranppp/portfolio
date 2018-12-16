@@ -32,7 +32,6 @@ a.skip-main:focus, a.skip-main:active {
     z-index:999;
 }
   body{
-    
     background-image:url('../img/back.gif');
     background-color:white;
   }
@@ -106,6 +105,7 @@ a.skip-main:focus, a.skip-main:active {
       background-image:url('../img/forhead.gif');
       background-size: 150px 150px;
       color:navy;
+      padding-top:40px;
   }
   h1{
     font-size: 10%;  
@@ -114,6 +114,7 @@ a.skip-main:focus, a.skip-main:active {
       margin-top:35px;
       line-height: 40px;
       font-family: 'Noto Serif TC', serif;
+      background-color:white;
   }
   #fornav{
       width:800px;
@@ -181,7 +182,7 @@ main{
 footer{
     height:40px;
     background-color:rgb(1, 1, 57);
-    z-index:-3;
+    
     text-align: center;
     color:white;
 }
@@ -201,7 +202,7 @@ footer{
 	justify-content: center;
     align-items: center;
     margin-left:600px;
-    z-index:-1;
+   
     
     background-size: 100% 100%;
 
@@ -269,3 +270,9 @@ h1:after {
     color:rgb(1, 1, 57);
 
   }
+   /* html{
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: gray; 
+    filter: grayscale(100%);
+}  */

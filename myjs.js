@@ -3,7 +3,7 @@ $(document).ready(function() {
 		$("#main").removeClass("is-loading");
     }, 100)
     $("#navnav").click(function(){
-        console.log('101');
+       
         $(".flex-container").toggle("left slow");
         //$(".flex-container").toggle("slide", {direction: "right" }, 1000);
     });
@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
     
   $(".mininav1").click(function(){
-    console.log('101');
+    
     $(".flex-container").slideToggle('slow');
     //$(".flex-container").toggle("slide", {direction: "right" }, 1000);
 });
